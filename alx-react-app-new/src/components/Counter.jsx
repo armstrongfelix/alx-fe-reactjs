@@ -4,44 +4,12 @@ function Counter() {
   const [count, setCount] = useState(0);
 
   return (
-    <>
-      <p>The count is : {count}</p>
-      <div style={{ display: "flex", gap: "10px" }}>
-        <button
-          onClick={() => setCount(count + 1)}
-          style={{
-            padding: "3px",
-            backgroundColor: "blue",
-            color: "white",
-            borderRadius: "5px",
-          }}
-        >
-          Add Count
-        </button>
-        <button
-          onClick={() => setCount(count - 1)}
-          style={{
-            padding: "3px",
-            backgroundColor: "blue",
-            color: "white",
-            borderRadius: "5px",
-          }}
-        >
-          Subtract Count
-        </button>
-        <button
-          onClick={() => setCount(0)}
-          style={{
-            padding: "3px",
-            backgroundColor: "blue",
-            color: "white",
-            borderRadius: "5px",
-          }}
-        >
-          Reset Count
-        </button>
-      </div>
-    </>
+    <div>
+      <p>Current Count: {count}</p>
+      <button onClick={() => setCount(count + 1)}>Increment</button>
+      <button onClick={() => setCount(count - 1)}>Decrement</button>
+      <button onClick={() => setCount(0)}>Reset</button>
+    </div>
   );
 }
 
