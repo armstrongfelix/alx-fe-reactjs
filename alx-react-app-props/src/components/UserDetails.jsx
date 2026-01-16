@@ -1,7 +1,10 @@
 import { useContext } from "react";
 import UserContext from "./UserContext";
+
 function UserDetails() {
+  // Consume the context value directly
   const userData = useContext(UserContext);
+
   return (
     <div>
       <p>Name: {userData.name}</p>
