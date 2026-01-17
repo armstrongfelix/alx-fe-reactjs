@@ -2,7 +2,9 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 function Navbar() {
   const style = {
-    margin: "auto",
+    backgroundColor: "#eee",
+    margin: "2vh auto 40vh",
+    padding: "2%",
     display: "flex",
     justifyContent: "center",
     alignItems: "center",
