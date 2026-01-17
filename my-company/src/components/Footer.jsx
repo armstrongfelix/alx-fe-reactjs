@@ -7,6 +7,7 @@ function Footer() {
         textAlign: "center",
         padding: "10px",
         backgroundColor: "#eee",
+        margin: "5vh",
       }}
     >
       <p>© 2026 My Company</p>

@@ -1,38 +1,43 @@
-import React from "react";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
+
 function Navbar() {
-  const style = {
-    backgroundColor: "#eee",
-    margin: "2vh auto 40vh",
-    padding: "2%",
-    display: "flex",
-    justifyContent: "center",
-    alignItems: "center",
-    gap: "30px",
-  };
-  const linkStyle = {
-    textDecoration: "none",
-    color: "green",
-    fontWeight: "bold",
-    fontSize: "25px",
-  };
   return (
-    <div>
-      <nav style={style}>
-        <NavLink to={"/"} style={linkStyle}>
-          Home
-        </NavLink>
-        <NavLink to={"/about"} style={linkStyle}>
-          About
-        </NavLink>
-        <NavLink to={"/services"} style={linkStyle}>
-          Services
-        </NavLink>
-        <NavLink to={"/contact"} style={linkStyle}>
-          Contact
-        </NavLink>
-      </nav>
-    </div>
+    <nav
+      style={{
+        backgroundColor: "#a9cbf2",
+        padding: "2%",
+        display: "flex",
+        justifyContent: "center",
+        gap: "20px",
+        margin: "2vh auto 40vh",
+      }}
+    >
+      <Link
+        style={{ color: "white", textDecoration: "none", fontSize: "1.5rem" }}
+        to="/"
+      >
+        Home
+      </Link>
+      <Link
+        style={{ color: "white", textDecoration: "none", fontSize: "1.5rem" }}
+        to="/about"
+      >
+        About
+      </Link>
+      <Link
+        style={{ color: "white", textDecoration: "none", fontSize: "1.5rem" }}
+        to="/services"
+      >
+        Services
+      </Link>
+      <Link
+        style={{ color: "white", textDecoration: "none", fontSize: "1.5rem" }}
+        to="/contact"
+      >
+        Contact
+      </Link>
+    </nav>
   );
 }
+
 export default Navbar;
