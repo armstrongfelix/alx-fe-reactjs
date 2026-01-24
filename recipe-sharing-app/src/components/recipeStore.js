@@ -2,27 +2,27 @@ import { create } from "zustand";
 
 const useRecipeStore = create((set) => ({
   recipes: [],
-  searchTerm: "",
-  setSearchTerm: (term) => set({ searchTerm: term }),
-  filteredRecipes: [],
-
-  // Action to compute filtered results
-  filterRecipes: () =>
+  favorites: [],
+  // Action to add a recipe ID to favorites
+  addFavorite: (recipeId) =>
     set((state) => ({
-      filteredRecipes: state.recipes.filter(
-        (recipe) =>
-          recipe.title.toLowerCase().includes(state.searchTerm.toLowerCase()) ||
-          recipe.ingredients.some((ing) =>
-            ing.toLowerCase().includes(state.searchTerm.toLowerCase()),
-          ),
-      ),
+      favorites: [...state.favorites, recipeId],
     })),
-
-  // Helper to initialize or update recipes
-  addRecipe: (newRecipe) =>
+  // Action to remove a recipe ID from favorites
+  removeFavorite: (recipeId) =>
     set((state) => ({
-      recipes: [...state.recipes, newRecipe],
+      favorites: state.favorites.filter((id) => id !== recipeId),
     })),
-  setRecipes: (recipes) => set({ recipes }),
+  recommendations: [],
+  // Logic to suggest recipes (e.g., if a user favorites a recipe, suggest others)
+  generateRecommendations: () =>
+    set((state) => {
+      // Simple logic: recommend recipes that are NOT in favorites but match a "vibe"
+      // Here we use a random filter as a mock algorithm
+      const recommended = state.recipes.filter(
+        (recipe) => !state.favorites.includes(recipe.id) && Math.random() > 0.5,
+      );
+      return { recommendations: recommended };
+    }),
 }));
-export { useRecipeStore };
+export default { useRecipeStore };

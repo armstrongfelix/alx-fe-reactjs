@@ -4,6 +4,23 @@ import { Link } from "react-router-dom"; // Import Link
 const RecipeList = () => {
   // Use filteredRecipes to ensure search functionality works
   const filteredRecipes = useRecipeStore((state) => state.filteredRecipes);
+  const isFavorite = useRecipeStore((state) =>
+    state.favorites.includes(recipeId),
+  );
+  const addFavorite = useRecipeStore((state) => state.addFavorite);
+    const removeFavorite = useRecipeStore((state) => state.removeFavorite);
+
+const handleFavoriteToggle = () => {
+  if (isFavorite) {
+    removeFavorite(recipeId);
+  } else {
+    addFavorite(recipeId);
+  }
+};
+
+<button onClick={handleFavoriteToggle}>
+  {isFavorite ? "Remove from Favorites" : "Add to Favorites"}
+</button>
 
   return (
     <div className="recipe-list">
@@ -13,7 +30,7 @@ const RecipeList = () => {
             key={recipe.id}
             style={{
               border: "1px solid #ddd",
-              margin: "10px",
+              margin: "10px",a
               padding: "10px",
             }}
           >
