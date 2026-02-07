@@ -6,9 +6,7 @@ function UserProfile() {
       <img
         src="https://via.placeholder.com/150"
         alt="User"
-        className="rounded-full mx-auto 
-                   /* Responsive Image: w-24 on mobile, w-36 on tablet+ */
-                   w-24 h-24 md:w-36 md:h-36"
+        className="rounded-full mx-auto w-24 h-24 md:w-36 md:h-36 sm:w-24" "sm:h-24"
       />
 
       {/* Responsive Typography: text-lg on mobile, text-xl on tablet+ */}
