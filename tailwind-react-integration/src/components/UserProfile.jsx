@@ -2,12 +2,7 @@ import React from "react";
 
 function UserProfile() {
   return (
-    <div
-      className="user-profile bg-gray-100 mx-auto my-10 rounded-lg shadow-lg 
-                    /* Responsive Container: Start small, grow on medium screens */
-                    p-4 md:p-8 
-                    max-w-xs md:max-w-sm"
-    >
+    <div className="user-profile bg-gray-100 mx-auto my-10 rounded-lg shadow-lg p-4 md:p-4 max-w-xs md:max-w-sm">
       <img
         src="https://via.placeholder.com/150"
         alt="User"
