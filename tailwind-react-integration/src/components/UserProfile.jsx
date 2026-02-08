@@ -2,7 +2,7 @@ import React from "react";
 
 function UserProfile() {
   return (
-    <div className="user-profile bg-gray-100 mx-auto my-10 rounded-lg p-4 md:p-8 max-w-xs md:max-w-sm shadow-lg hover:shadow-xl transition-shadow duration-300 ease-in-out cursor-default">
+    <div className="user-profile bg-gray-100 mx-auto my-20 rounded-lg p-4 md:p-8 max-w-xs md:max-w-sm shadow-lg hover:shadow-xl transition-shadow duration-300 ease-in-out cursor-default">
       <img
         src="https://via.placeholder.com/150"
         alt="User"
