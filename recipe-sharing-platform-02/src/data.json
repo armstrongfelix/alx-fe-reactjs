@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "title": "Spaghetti Carbonara",
+    "summary": "A classic Italian pasta dish with eggs, cheese, bacon, and black pepper.",
+    "image": "https://images.unsplash.com/photo-1612874742237-6526221588e3?w=500"
+  },
+  {
+    "id": 2,
+    "title": "Chicken Tikka Masala",
+    "summary": "Chunks of grilled chicken cooked in a smooth, buttery, and creamy tomato-based gravy.",
+    "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=500"
+  },
+  {
+    "id": 3,
+    "title": "Classic Margherita Pizza",
+    "summary": "Fresh mozzarella, tomato sauce, and basil on a crispy thin crust.",
+    "image": "https://images.unsplash.com/photo-1604068549290-dea0e4a305ca?w=500"
+  },
+  {
+    "id": 4,
+    "title": "Beef Stir-Fry",
+    "summary": "Tender beef strips with snap peas, carrots, and bell peppers in a savory soy-ginger sauce.",
+    "image": "https://images.unsplash.com/photo-1512058560566-427a1bd5a560?w=500"
+  },
+  {
+    "id": 5,
+    "title": "Greek Salad",
+    "summary": "Crisp cucumbers, tomatoes, red onions, olives, and feta cheese with lemon-oregano dressing.",
+    "image": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=500"
+  },
+  {
+    "id": 6,
+    "title": "Mushroom Risotto",
+    "summary": "Creamy Arborio rice slow-cooked with earthy mushrooms, white wine, and parmesan.",
+    "image": "https://images.unsplash.com/photo-1476124369491-e7addf5db371?w=500"
+  },
+  {
+    "id": 7,
+    "title": "Tacos al Pastor",
+    "summary": "Thinly sliced marinated pork with pineapple, onions, and cilantro on corn tortillas.",
+    "image": "https://images.unsplash.com/photo-1551504734-5ee1c4a1479b?w=500"
+  },
+  {
+    "id": 8,
+    "title": "Shrimp Scampi",
+    "summary": "Garlicky butter-sauteed shrimp served over a bed of linguine pasta.",
+    "image": "https://images.unsplash.com/photo-1633504581786-316c8002b1b9?w=500"
+  },
+  {
+    "id": 9,
+    "title": "Avocado Toast with Egg",
+    "summary": "Smashed avocado on sourdough bread topped with a perfectly poached egg and chili flakes.",
+    "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?w=500"
+  },
+  {
+    "id": 10,
+    "title": "French Onion Soup",
+    "summary": "Rich beef broth with caramelized onions, topped with a baguette slice and melted Gruyere.",
+    "image": "https://images.unsplash.com/photo-1583032015879-e50d332230ee?w=500"
+  },
+  {
+    "id": 11,
+    "title": "Vegetable Pad Thai",
+    "summary": "Stir-fried rice noodles with tofu, bean sprouts, peanuts, and a tangy tamarind sauce.",
+    "image": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=500"
+  },
+  {
+    "id": 12,
+    "title": "BBQ Pulled Pork Sandwich",
+    "summary": "Slow-cooked pork shoulder shredded and tossed in smoky barbecue sauce on a brioche bun.",
+    "image": "https://images.unsplash.com/photo-1527324688101-01813a50bc41?w=500"
+  },
+  {
+    "id": 13,
+    "title": "Ratatouille",
+    "summary": "A vibrant French Provencal stewed vegetable dish consisting of eggplant, zucchini, and peppers.",
+    "image": "https://images.unsplash.com/photo-1572453800999-e8d2d1589b7c?w=500"
+  },
+  {
+    "id": 14,
+    "title": "Eggs Benedict",
+    "summary": "Poached eggs and Canadian bacon on English muffins, smothered in Hollandaise sauce.",
+    "image": "https://images.unsplash.com/photo-1608039829572-7852bf5c7c63?w=500"
+  },
+  {
+    "id": 15,
+    "title": "Beef Bourguignon",
+    "summary": "A hearty French beef stew braised in red wine with carrots, onions, and pearl mushrooms.",
+    "image": "https://images.unsplash.com/photo-1534939561126-755ecf15a392?w=500"
+  },
+  {
+    "id": 16,
+    "title": "Falafel Wrap",
+    "summary": "Crispy chickpea fritters with hummus, tahini, and pickles wrapped in soft flatbread.",
+    "image": "https://images.unsplash.com/photo-1547050605-2f10bd023919?w=500"
+  },
+  {
+    "id": 17,
+    "title": "Clam Chowder",
+    "summary": "Thick and creamy New England style soup with clams, potatoes, and celery.",
+    "image": "https://images.unsplash.com/photo-1560684840-04f85685df42?w=500"
+  },
+  {
+    "id": 18,
+    "title": "Chicken Caesar Salad",
+    "summary": "Romaine lettuce tossed with Caesar dressing, croutons, parmesan, and grilled chicken breast.",
+    "image": "https://images.unsplash.com/photo-1550304943-4f24f54ddde9?w=500"
+  },
+  {
+    "id": 19,
+    "title": "Beef Enchiladas",
+    "summary": "Corn tortillas filled with seasoned beef, rolled and topped with red chili sauce and cheese.",
+    "image": "https://images.unsplash.com/photo-1534353473418-4cfa6c56fd38?w=500"
+  },
+  {
+    "id": 20,
+    "title": "Chocolate Lava Cake",
+    "summary": "A decadent chocolate sponge cake with a warm, liquid chocolate center.",
+    "image": "https://images.unsplash.com/photo-1624353365286-3f8d62daad51?w=500"
+  }
+]

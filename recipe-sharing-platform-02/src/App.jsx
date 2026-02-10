@@ -4,7 +4,6 @@ import HomePage from "./components/HomePage";
 function App() {
   return (
     <div>
-      <h1>My Name is Felix Armstrong</h1>
       <HomePage />
     </div>
   );
