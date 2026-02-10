@@ -2,121 +2,343 @@
   {
     "id": 1,
     "title": "Spaghetti Carbonara",
-    "summary": "A classic Italian pasta dish with eggs, cheese, bacon, and black pepper.",
-    "image": "https://images.unsplash.com/photo-1612874742237-6526221588e3?w=500"
+    "summary": "Classic Italian pasta with eggs, cheese, and bacon.",
+    "ingredients": [
+      "Spaghetti",
+      "Eggs",
+      "Pecorino Romano",
+      "Guanciale",
+      "Black Pepper"
+    ],
+    "instructions": "Boil pasta. Fry guanciale. Mix eggs and cheese. Combine all.",
+    "image": "https://images.unsplash.com/photo-1612874742237-6526221588e3?q=80&w=400"
   },
   {
     "id": 2,
     "title": "Chicken Tikka Masala",
-    "summary": "Chunks of grilled chicken cooked in a smooth, buttery, and creamy tomato-based gravy.",
-    "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=500"
+    "summary": "Grilled chicken in a smooth buttery & creamy tomato gravy.",
+    "ingredients": [
+      "Chicken",
+      "Yogurt",
+      "Tomato Puree",
+      "Garam Masala",
+      "Cream"
+    ],
+    "instructions": "Marinate chicken. Grill until charred. Simmer in tomato gravy.",
+    "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?q=80&w=400"
   },
   {
     "id": 3,
-    "title": "Classic Margherita Pizza",
-    "summary": "Fresh mozzarella, tomato sauce, and basil on a crispy thin crust.",
-    "image": "https://images.unsplash.com/photo-1604068549290-dea0e4a305ca?w=500"
+    "title": "Beef Wellington",
+    "summary": "Tender beef wrapped in mushroom duxelles and puff pastry.",
+    "ingredients": [
+      "Beef Tenderloin",
+      "Mushrooms",
+      "Puff Pastry",
+      "Prosciutto",
+      "Egg Wash"
+    ],
+    "instructions": "Sear beef. Wrap in mushrooms and pastry. Bake until golden.",
+    "image": "https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=400"
   },
   {
     "id": 4,
-    "title": "Beef Stir-Fry",
-    "summary": "Tender beef strips with snap peas, carrots, and bell peppers in a savory soy-ginger sauce.",
-    "image": "https://images.unsplash.com/photo-1512058560566-427a1bd5a560?w=500"
+    "title": "Mushroom Risotto",
+    "summary": "Creamy Arborio rice slow-cooked with earthy mushrooms.",
+    "ingredients": [
+      "Arborio Rice",
+      "Mushrooms",
+      "Vegetable Stock",
+      "Parmesan",
+      "White Wine"
+    ],
+    "instructions": "Sauté mushrooms. Add rice and stock slowly while stirring.",
+    "image": "https://images.unsplash.com/photo-1476124369491-e7addf5db371?q=80&w=400"
   },
   {
     "id": 5,
-    "title": "Greek Salad",
-    "summary": "Crisp cucumbers, tomatoes, red onions, olives, and feta cheese with lemon-oregano dressing.",
-    "image": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=500"
+    "title": "Classic Cheeseburger",
+    "summary": "Juicy beef patty with cheddar, lettuce, and tomato.",
+    "ingredients": ["Beef Patty", "Cheddar", "Burger Bun", "Lettuce", "Tomato"],
+    "instructions": "Grill patty. Melt cheese. Assemble on toasted bun.",
+    "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=400"
   },
   {
     "id": 6,
-    "title": "Mushroom Risotto",
-    "summary": "Creamy Arborio rice slow-cooked with earthy mushrooms, white wine, and parmesan.",
-    "image": "https://images.unsplash.com/photo-1476124369491-e7addf5db371?w=500"
+    "title": "Pad Thai",
+    "summary": "Stir-fried rice noodles with shrimp, peanuts, and sprouts.",
+    "ingredients": [
+      "Rice Noodles",
+      "Shrimp",
+      "Tofu",
+      "Peanuts",
+      "Tamarind Paste"
+    ],
+    "instructions": "Soak noodles. Stir-fry shrimp and tofu. Add sauce and noodles.",
+    "image": "https://images.unsplash.com/photo-1559339352-11d035aa65de?q=80&w=400"
   },
   {
     "id": 7,
-    "title": "Tacos al Pastor",
-    "summary": "Thinly sliced marinated pork with pineapple, onions, and cilantro on corn tortillas.",
-    "image": "https://images.unsplash.com/photo-1551504734-5ee1c4a1479b?w=500"
+    "title": "Margherita Pizza",
+    "summary": "Simple Italian pizza with mozzarella and fresh basil.",
+    "ingredients": [
+      "Pizza Dough",
+      "Tomato Sauce",
+      "Fresh Mozzarella",
+      "Basil",
+      "Olive Oil"
+    ],
+    "instructions": "Roll dough. Add sauce and cheese. Bake at high heat.",
+    "image": "https://images.unsplash.com/photo-1574071318508-1cdbad80ad38?q=80&w=400"
   },
   {
     "id": 8,
-    "title": "Shrimp Scampi",
-    "summary": "Garlicky butter-sauteed shrimp served over a bed of linguine pasta.",
-    "image": "https://images.unsplash.com/photo-1633504581786-316c8002b1b9?w=500"
+    "title": "Greek Salad",
+    "summary": "Crisp cucumbers, tomatoes, olives, and feta cheese.",
+    "ingredients": [
+      "Cucumber",
+      "Tomato",
+      "Feta",
+      "Kalamata Olives",
+      "Red Onion"
+    ],
+    "instructions": "Chop vegetables. Toss with olive oil and oregano. Top with feta.",
+    "image": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?q=80&w=400"
   },
   {
     "id": 9,
-    "title": "Avocado Toast with Egg",
-    "summary": "Smashed avocado on sourdough bread topped with a perfectly poached egg and chili flakes.",
-    "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?w=500"
+    "title": "Beef Pho",
+    "summary": "Vietnamese noodle soup with thin beef slices and herbs.",
+    "ingredients": [
+      "Beef Broth",
+      "Rice Stick Noodles",
+      "Beef Flank",
+      "Bean Sprouts",
+      "Basil"
+    ],
+    "instructions": "Simmer broth with spices. Pour over raw beef and noodles.",
+    "image": "https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43?q=80&w=400"
   },
   {
     "id": 10,
-    "title": "French Onion Soup",
-    "summary": "Rich beef broth with caramelized onions, topped with a baguette slice and melted Gruyere.",
-    "image": "https://images.unsplash.com/photo-1583032015879-e50d332230ee?w=500"
+    "title": "Sushi Platter",
+    "summary": "Assorted nigiri and maki rolls with fresh seafood.",
+    "ingredients": ["Sushi Rice", "Salmon", "Tuna", "Nori", "Wasabi"],
+    "instructions": "Season rice. Slice fish. Roll with nori or press onto rice.",
+    "image": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?q=80&w=400"
   },
   {
     "id": 11,
-    "title": "Vegetable Pad Thai",
-    "summary": "Stir-fried rice noodles with tofu, bean sprouts, peanuts, and a tangy tamarind sauce.",
-    "image": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=500"
+    "title": "French Onion Soup",
+    "summary": "Caramelized onions in rich broth with melted gruyère.",
+    "ingredients": ["Onions", "Beef Stock", "Gruyère", "Baguette", "Thyme"],
+    "instructions": "Slow-cook onions. Add stock. Top with bread and cheese. Broil.",
+    "image": "https://images.unsplash.com/photo-1583394293235-4815c82f8118?q=80&w=400"
   },
   {
     "id": 12,
-    "title": "BBQ Pulled Pork Sandwich",
-    "summary": "Slow-cooked pork shoulder shredded and tossed in smoky barbecue sauce on a brioche bun.",
-    "image": "https://images.unsplash.com/photo-1527324688101-01813a50bc41?w=500"
+    "title": "Lobster Roll",
+    "summary": "Chunky lobster meat in a buttered brioche bun.",
+    "ingredients": ["Lobster", "Mayonnaise", "Brioche Bun", "Lemon", "Chives"],
+    "instructions": "Mix lobster with mayo and lemon. Stuff into toasted bun.",
+    "image": "https://images.unsplash.com/photo-1533682805518-48d1f5b8cd3a?q=80&w=400"
   },
   {
     "id": 13,
-    "title": "Ratatouille",
-    "summary": "A vibrant French Provencal stewed vegetable dish consisting of eggplant, zucchini, and peppers.",
-    "image": "https://images.unsplash.com/photo-1572453800999-e8d2d1589b7c?w=500"
+    "title": "Butter Chicken",
+    "summary": "Mild aromatic chicken curry in a silky tomato sauce.",
+    "ingredients": [
+      "Chicken",
+      "Butter",
+      "Tomato Puree",
+      "Cream",
+      "Ginger-Garlic Paste"
+    ],
+    "instructions": "Cook chicken. Prepare buttery gravy. Combine and simmer.",
+    "image": "https://images.unsplash.com/photo-1588166524941-3bf61a9c41db?q=80&w=400"
   },
   {
     "id": 14,
-    "title": "Eggs Benedict",
-    "summary": "Poached eggs and Canadian bacon on English muffins, smothered in Hollandaise sauce.",
-    "image": "https://images.unsplash.com/photo-1608039829572-7852bf5c7c63?w=500"
+    "title": "Ratatouille",
+    "summary": "Provencal stewed vegetables layered in a spiral.",
+    "ingredients": ["Eggplant", "Zucchini", "Tomato", "Bell Pepper", "Garlic"],
+    "instructions": "Slice veggies. Layer over tomato sauce. Bake until tender.",
+    "image": "https://images.unsplash.com/photo-1572453800999-e8d2d1589b7c?q=80&w=400"
   },
   {
     "id": 15,
-    "title": "Beef Bourguignon",
-    "summary": "A hearty French beef stew braised in red wine with carrots, onions, and pearl mushrooms.",
-    "image": "https://images.unsplash.com/photo-1534939561126-755ecf15a392?w=500"
+    "title": "Tiramisu",
+    "summary": "Coffee-soaked ladyfingers with mascarpone cream.",
+    "ingredients": [
+      "Ladyfingers",
+      "Mascarpone",
+      "Espresso",
+      "Cocoa Powder",
+      "Eggs"
+    ],
+    "instructions": "Dip fingers in coffee. Layer with cream. Chill for 4 hours.",
+    "image": "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?q=80&w=400"
   },
   {
     "id": 16,
-    "title": "Falafel Wrap",
-    "summary": "Crispy chickpea fritters with hummus, tahini, and pickles wrapped in soft flatbread.",
-    "image": "https://images.unsplash.com/photo-1547050605-2f10bd023919?w=500"
+    "title": "Fish and Chips",
+    "summary": "Crispy battered cod served with thick-cut fries.",
+    "ingredients": ["Cod", "Flour", "Beer", "Potatoes", "Tartar Sauce"],
+    "instructions": "Make beer batter. Dip fish and fry. Double-fry the potatoes.",
+    "image": "https://images.unsplash.com/photo-1534422298391-e4f8c170db06?q=80&w=400"
   },
   {
     "id": 17,
-    "title": "Clam Chowder",
-    "summary": "Thick and creamy New England style soup with clams, potatoes, and celery.",
-    "image": "https://images.unsplash.com/photo-1560684840-04f85685df42?w=500"
+    "title": "Chili Con Carne",
+    "summary": "Hearty beef and bean stew with spicy peppers.",
+    "ingredients": [
+      "Ground Beef",
+      "Kidney Beans",
+      "Tomato",
+      "Chili Powder",
+      "Onion"
+    ],
+    "instructions": "Brown beef. Add veggies and spices. Simmer for 1 hour.",
+    "image": "https://images.unsplash.com/photo-1585238342024-78d387f4a707?q=80&w=400"
   },
   {
     "id": 18,
-    "title": "Chicken Caesar Salad",
-    "summary": "Romaine lettuce tossed with Caesar dressing, croutons, parmesan, and grilled chicken breast.",
-    "image": "https://images.unsplash.com/photo-1550304943-4f24f54ddde9?w=500"
+    "title": "Bibimbap",
+    "summary": "Korean rice bowl with mixed vegetables and egg.",
+    "ingredients": ["Rice", "Beef", "Spinach", "Carrots", "Gochujang"],
+    "instructions": "Sauté veggies separately. Place on rice. Top with fried egg.",
+    "image": "https://images.unsplash.com/photo-1590301157890-4810ed352733?q=80&w=400"
   },
   {
     "id": 19,
-    "title": "Beef Enchiladas",
-    "summary": "Corn tortillas filled with seasoned beef, rolled and topped with red chili sauce and cheese.",
-    "image": "https://images.unsplash.com/photo-1534353473418-4cfa6c56fd38?w=500"
+    "title": "Shrimp Scampi",
+    "summary": "Garlicky shrimp served over a bed of linguine.",
+    "ingredients": ["Shrimp", "Garlic", "Linguine", "Butter", "Lemon Juice"],
+    "instructions": "Boil pasta. Sauté shrimp in garlic butter. Toss together.",
+    "image": "https://images.unsplash.com/photo-1633504581786-316c8002b1b9?q=80&w=400"
   },
   {
     "id": 20,
-    "title": "Chocolate Lava Cake",
-    "summary": "A decadent chocolate sponge cake with a warm, liquid chocolate center.",
-    "image": "https://images.unsplash.com/photo-1624353365286-3f8d62daad51?w=500"
+    "title": "Eggs Benedict",
+    "summary": "Poached eggs on muffins with hollandaise sauce.",
+    "ingredients": [
+      "Eggs",
+      "English Muffin",
+      "Canadian Bacon",
+      "Butter",
+      "Lemon"
+    ],
+    "instructions": "Poach eggs. Toast muffins. Whisk hollandaise. Assemble.",
+    "image": "https://images.unsplash.com/photo-1608039755401-742074f0548d?q=80&w=400"
+  },
+  {
+    "id": 21,
+    "title": "Lamb Gyro",
+    "summary": "Sliced lamb in pita bread with tzatziki sauce.",
+    "ingredients": ["Lamb", "Pita", "Cucumber", "Yogurt", "Garlic"],
+    "instructions": "Roast and slice lamb. Make tzatziki. Wrap in warm pita.",
+    "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?q=80&w=400"
+  },
+  {
+    "id": 22,
+    "title": "Chicken Enchiladas",
+    "summary": "Corn tortillas rolled with chicken and green sauce.",
+    "ingredients": [
+      "Corn Tortilla",
+      "Chicken",
+      "Green Chili Sauce",
+      "Cheese",
+      "Sour Cream"
+    ],
+    "instructions": "Fill tortillas with chicken. Top with sauce and cheese. Bake.",
+    "image": "https://images.unsplash.com/photo-1534353473418-4cfa6c56fd38?q=80&w=400"
+  },
+  {
+    "id": 23,
+    "title": "Falafel Wrap",
+    "summary": "Crispy chickpea balls with hummus and pickles.",
+    "ingredients": [
+      "Chickpeas",
+      "Hummus",
+      "Pickled Veggies",
+      "Flatbread",
+      "Tahini"
+    ],
+    "instructions": "Fry chickpea balls. Spread hummus on bread. Wrap everything.",
+    "image": "https://images.unsplash.com/photo-1547050605-2f10bd023919?q=80&w=400"
+  },
+  {
+    "id": 24,
+    "title": "Pulled Pork Sliders",
+    "summary": "Slow-cooked pork with BBQ sauce on mini buns.",
+    "ingredients": [
+      "Pork Shoulder",
+      "BBQ Sauce",
+      "Coleslaw",
+      "Mini Buns",
+      "Apple Cider Vinegar"
+    ],
+    "instructions": "Slow cook pork for 8 hours. Shred and mix with BBQ sauce.",
+    "image": "https://images.unsplash.com/photo-1527324688151-0e627063f2b1?q=80&w=400"
+  },
+  {
+    "id": 25,
+    "title": "Clam Chowder",
+    "summary": "Creamy soup with fresh clams and potatoes.",
+    "ingredients": ["Clams", "Cream", "Potatoes", "Celery", "Onion"],
+    "instructions": "Sauté veggies. Add clams and stock. Simmer with cream.",
+    "image": "https://images.unsplash.com/photo-1560684352-8497838a2229?q=80&w=400"
+  },
+  {
+    "id": 26,
+    "title": "Chicken Alfredo",
+    "summary": "Fettuccine pasta in rich butter and parmesan sauce.",
+    "ingredients": [
+      "Fettuccine",
+      "Chicken Breast",
+      "Heavy Cream",
+      "Butter",
+      "Parmesan"
+    ],
+    "instructions": "Grill chicken. Make cream sauce. Toss with cooked pasta.",
+    "image": "https://images.unsplash.com/photo-1645112481338-3560e99b352c?q=80&w=400"
+  },
+  {
+    "id": 27,
+    "title": "Miso Ramen",
+    "summary": "Rich miso broth with noodles and bamboo shoots.",
+    "ingredients": ["Ramen Noodles", "Miso Paste", "Pork Belly", "Egg", "Nori"],
+    "instructions": "Boil broth. Add miso. Cook noodles. Top with pork and egg.",
+    "image": "https://images.unsplash.com/photo-1591814447921-7242a744246d?q=80&w=400"
+  },
+  {
+    "id": 28,
+    "title": "Lasagna",
+    "summary": "Layered pasta with meat sauce and bechamel.",
+    "ingredients": [
+      "Pasta Sheets",
+      "Ground Beef",
+      "Mozzarella",
+      "Bechamel",
+      "Tomato Sauce"
+    ],
+    "instructions": "Layer sauce, pasta, meat, and cheese. Repeat. Bake at 180°C.",
+    "image": "https://images.unsplash.com/photo-1619895092538-128341789043?q=80&w=400"
+  },
+  {
+    "id": 29,
+    "title": "Quinoa Bowl",
+    "summary": "Healthy grain bowl with chickpeas and kale.",
+    "ingredients": ["Quinoa", "Chickpeas", "Kale", "Tahini", "Lemon"],
+    "instructions": "Cook quinoa. Roast chickpeas. Massaged kale. Mix with tahini.",
+    "image": "https://images.unsplash.com/photo-1543339308-43e59d6b73a6?q=80&w=400"
+  },
+  {
+    "id": 30,
+    "title": "Paella",
+    "summary": "Spanish rice dish with saffron and seafood.",
+    "ingredients": ["Saffron Rice", "Shrimp", "Mussels", "Chorizo", "Peas"],
+    "instructions": "Cook rice with saffron. Add chorizo and seafood. Simmer.",
+    "image": "https://images.unsplash.com/photo-1512058560366-cd242d4586ee?q=80&w=400"
   }
 ]
