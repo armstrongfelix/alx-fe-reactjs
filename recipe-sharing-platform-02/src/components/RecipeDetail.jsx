@@ -11,6 +11,7 @@ const RecipeDetail = () => {
     setRecipe(foundRecipe);
   }, [id]);
 
+  
   if (!recipe) return <div className="text-center mt-10">Loading...</div>;
 
   return (
