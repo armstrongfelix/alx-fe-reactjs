@@ -1,104 +1,54 @@
-import React from "react";
-import { Formik, Form, Field, ErrorMessage } from "formik";
-import * as Yup from "yup";
+import React, { useState } from "react";
 
-// 1. Define the Validation Schema
-const RegistrationSchema = Yup.object().shape({
-  username: Yup.string()
-    .min(3, "Username must be at least 3 characters")
-    .required("Username is required"),
-  email: Yup.string()
-    .email("Invalid email address")
-    .required("Email is required"),
-  password: Yup.string()
-    .min(8, "Password must be at least 8 characters")
-    .matches(/[a-z]/, "Must contain at least one lowercase letter")
-    .matches(/[A-Z]/, "Must contain at least one uppercase letter")
-    .required("Password is required"),
-  confirmPassword: Yup.string()
-    .oneOf([Yup.ref("password"), null], "Passwords must match")
-    .required("Confirm your password"),
-});
+const Registration = () => {
+  const [formData, setFormData] = useState({
+    username: "",
+    email: "",
+    password: "",
+  });
 
-const RegistrationForm = () => {
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({ ...formData, [name]: value });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    console.log("Controlled Form Submitted:", formData);
+    // Add logic for NIS Staff Management System registration here
+  };
+
   return (
-    <div style={{ maxWidth: "400px", margin: "20px auto" }}>
-      <h2>Create Account</h2>
-      <Formik
-        initialValues={{
-          username: "",
-          email: "",
-          password: "",
-          confirmPassword: "",
-        }}
-        validationSchema={RegistrationSchema}
-        onSubmit={(values, { setSubmitting, resetForm }) => {
-          // Simulate an API call
-          setTimeout(() => {
-            console.log("Form Submitted:", values);
-            alert("Registration Successful!");
-            resetForm();
-            setSubmitting(false);
-          }, 1000);
-        }}
+    <form onSubmit={handleSubmit} className="p-4 max-w-md mx-auto">
+      <h2 className="text-xl font-bold mb-4">Register (Controlled)</h2>
+      <div className="mb-3">
+        <label className="block">Username</label>
+        <input
+          type="text"
+          name="username"
+          value={formData.username}
+          onChange={handleChange}
+          className="border p-2 w-full rounded"
+        />
+      </div>
+      <div className="mb-3">
+        <label className="block">Email</label>
+        <input
+          type="email"
+          name="email"
+          value={formData.email}
+          onChange={handleChange}
+          className="border p-2 w-full rounded"
+        />
+      </div>
+      <button
+        type="submit"
+        className="bg-blue-600 text-white px-4 py-2 rounded"
       >
-        {({ isSubmitting, errors, touched }) => (
-          <Form
-            style={{ display: "flex", flexDirection: "column", gap: "15px" }}
-          >
-            <div>
-              <label htmlFor="username">Username</label>
-              <Field
-                name="username"
-                className={
-                  errors.username && touched.username ? "input-error" : ""
-                }
-              />
-              <ErrorMessage
-                name="username"
-                component="div"
-                style={{ color: "red", fontSize: "12px" }}
-              />
-            </div>
-
-            <div>
-              <label htmlFor="email">Email</label>
-              <Field name="email" type="email" />
-              <ErrorMessage
-                name="email"
-                component="div"
-                style={{ color: "red", fontSize: "12px" }}
-              />
-            </div>
-
-            <div>
-              <label htmlFor="password">Password</label>
-              <Field name="password" type="password" />
-              <ErrorMessage
-                name="password"
-                component="div"
-                style={{ color: "red", fontSize: "12px" }}
-              />
-            </div>
-
-            <div>
-              <label htmlFor="confirmPassword">Confirm Password</label>
-              <Field name="confirmPassword" type="password" />
-              <ErrorMessage
-                name="confirmPassword"
-                component="div"
-                style={{ color: "red", fontSize: "12px" }}
-              />
-            </div>
-
-            <button type="submit" disabled={isSubmitting}>
-              {isSubmitting ? "Registering..." : "Register"}
-            </button>
-          </Form>
-        )}
-      </Formik>
-    </div>
+        Sign Up
+      </button>
+    </form>
   );
 };
 
-export default RegistrationForm;
+export default Registration;
